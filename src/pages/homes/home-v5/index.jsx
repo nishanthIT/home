@@ -62,13 +62,13 @@ const Home_V5 = () => {
               <div className="main-title2">
                 <h2 className="title">Discover Our Featured Listings</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                 Explore Vino's homes
                 </p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="text-start text-lg-end mb-3">
-                <Link className="ud-btn2" to="/grid-full-2-col">
+                <Link className="ud-btn2" to="/grid-default">
                   See All Properties
                   <i className="fal fa-arrow-right-long" />
                 </Link>
@@ -89,14 +89,14 @@ const Home_V5 = () => {
       {/* End Discover Our Featured Listings */}
 
       {/* Explore Apartment Types cities */}
-      <section className="pb90 pb30-md">
+      <section  className="pb90 pb30-md" >
         <div className="container">
           <div className="row" data-aos="fade-up" data-aos-delay="0">
             <div className="col-lg-6 mx-auto">
               <div className="main-title2 text-center">
-                <h2 className="title">Explore Apartment Types</h2>
+                <h2 className="title">Build Your Dream Home</h2>
                 <p className="paragraph">
-                  Get some Inspirations from 1800+ skills
+                  what we expert in:
                 </p>
               </div>
             </div>
@@ -120,9 +120,9 @@ const Home_V5 = () => {
               data-wow-delay="300ms"
             >
               <div className="main-title text-center">
-                <h2 className="title">See How Realton Can Help</h2>
+                <h2 className="title">What We Do</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Just explore every thing 
                 </p>
               </div>
             </div>
@@ -183,46 +183,15 @@ const Home_V5 = () => {
       {/* CTA */}
 
       {/* Our Testimonials */}
-      <section className="pb50-md">
-        <div className="container maxw1600">
-          <div className="row  justify-content-center text-center align-items-center">
-            <div className="col-auto">
-              <div
-                className="main-title"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <h2 className="title">People Love Living with Realton</h2>
-                <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
-                </p>
-              </div>
-            </div>
-            {/* End header */}
-          </div>
-          {/* End .row */}
 
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className="testimonial-slider"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <Testimonial />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       {/* End Our Testimonials */}
 
       {/* Popular Property */}
-      <PropertyListing />
+      {/* <PropertyListing /> */}
       {/* End  Popular Property */}
 
       {/* Explore Blog */}
-      <section className="pb90 pb30-md">
+      {/* <section className="pb90 pb30-md">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 m-auto" data-aos="fade-up">
@@ -234,21 +203,21 @@ const Home_V5 = () => {
               </div>
             </div>
           </div>
-          {/* End .row */}
+         
 
           <div className="row" data-aos="fade-up" data-aos-delay="300">
             <Blog />
           </div>
-          {/* End .row */}
+         
         </div>
-      </section>
+      </section> */}
       {/* Explore Blog */}
 
       {/* Our Partners */}
-      <section className="our-partners pt0">
+      <section className="our-partners  mt-6">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12" data-aos="fade-up">
+            <div className="col-lg-12 " data-aos="fade-up">
               <div className="main-title text-center">
                 <h6>Trusted by the world’s best</h6>
               </div>

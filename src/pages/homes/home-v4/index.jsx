@@ -57,7 +57,7 @@ const Home_V4 = () => {
           >
             <div className="col-lg-9">
               <div className="main-title2">
-                <h2 className="title">Properties by Cities</h2>
+                <h2 className="title">Our Services</h2>
                 <p className="paragraph">
                   Aliquam lacinia diam quis lacus euismod
                 </p>
@@ -65,14 +65,14 @@ const Home_V4 = () => {
             </div>
             {/* End col-lg-9 */}
 
-            <div className="col-lg-3">
+            {/* <div className="col-lg-3">
               <div className="text-start text-lg-end mb-3">
                 <Link className="ud-btn2" to="/map-v3">
-                  See All Cities
+                  See All Services
                   <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>
-            </div>
+            </div> */}
             {/* End col-lg-3 */}
           </div>
           {/* End .row */}
@@ -90,11 +90,11 @@ const Home_V4 = () => {
       {/* End Explore property-city */}
 
       {/* Popular Property */}
-      <section className="pt-0 pb60">
+      {/* <section className="pt-0 pb60">
         <div className="container">
           <FilterProperties />
         </div>
-      </section>
+      </section> */}
 
       {/* Abut intro */}
       <section className="pt30 pb-0">
@@ -109,16 +109,16 @@ const Home_V4 = () => {
                 <div className="mb30">
                   <h2 className="title text-capitalize">
                     Let’s find the right <br className="d-none d-md-block" />{" "}
-                    selling option for you
+                    Services for you
                   </h2>
                 </div>
                 <div className="why-chose-list style2">
                   <Features />
                 </div>
-                <Link to="#" className="ud-btn btn-dark">
+                {/* <Link to="#" className="ud-btn btn-dark">
                   Learn More
                   <i className="fal fa-arrow-right-long" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -140,7 +140,7 @@ const Home_V4 = () => {
       {/* End Funfact */}
 
       {/* Property Cities */}
-      <section className="pb80 pb30-md">
+      {/* <section className="pb80 pb30-md">
         <div className="container">
           <div className="row  justify-content-between align-items-center">
             <div className="col-auto">
@@ -154,133 +154,59 @@ const Home_V4 = () => {
                   Aliquam lacinia diam quis lacus euismod
                 </p>
               </div>
-            </div>
+            </div> */}
             {/* End header */}
 
-            <div className="col-auto mb30">
+            {/* <div className="col-auto mb30">
               <div className="row align-items-center justify-content-center">
                 <div className="col-auto">
                   <button className="apartment-type2-prev__active swiper_button">
                     <i className="far fa-arrow-left-long" />
                   </button>
-                </div>
+                </div> */}
                 {/* End prev */}
-
+{/* 
                 <div className="col-auto">
                   <div className="pagination swiper--pagination apartment-type2_pagination__active" />
-                </div>
+                </div> */}
                 {/* End pagination */}
 
-                <div className="col-auto">
+                {/* <div className="col-auto">
                   <button className="apartment-type2-next__active swiper_button">
                     <i className="far fa-arrow-right-long" />
                   </button>
-                </div>
+                </div> */}
                 {/* End Next */}
-              </div>
-            </div>
+              {/* </div>
+            </div> */}
             {/* End .col for navigation and pagination */}
-          </div>
+          {/* // </div> */}
           {/* End .row */}
 
-          <div className="row">
-            <div className="col-lg-12" data-aos="fade-up" data-aos-delay="300">
-              <div className="property-city-slider">
-                <ApartmentTypes />
-              </div>
-            </div>
-          </div>
+          {/* // <div className="row">
+          //   <div className="col-lg-12" data-aos="fade-up" data-aos-delay="300">
+          //     <div className="property-city-slider">
+          //       <ApartmentTypes />
+          //     </div>
+          //   </div>
+          // </div> */}
           {/* End .row */}
-        </div>
-      </section>
+        {/* </div>
+      </section> */}
       {/* End property cities */}
 
       {/* About Us */}
-      <section className="pt0 pb40-md">
+      {/* <section className="pt0 pb40-md">
         <About />
-      </section>
+      </section> */}
       {/* End About Us */}
 
       {/* Our Testimonials */}
-      <section className="pt0 pb40-md">
-        <div className="container">
-          <div className="row  justify-content-between align-items-center">
-            <div className="col-auto">
-              <div
-                className="main-title"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <h2 className="title">People Love Living with Realton</h2>
-                <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
-                </p>
-              </div>
-            </div>
-            {/* End header */}
-
-            <div className="col-auto mb30">
-              <div className="row align-items-center justify-content-center">
-                <div className="col-auto">
-                  <button className="testimonila_prev__active swiper_button">
-                    <i className="far fa-arrow-left-long" />
-                  </button>
-                </div>
-                {/* End prev */}
-
-                <div className="col-auto">
-                  <div className="pagination swiper--pagination testimonila_pagination__active" />
-                </div>
-                {/* End pagination */}
-
-                <div className="col-auto">
-                  <button className="testimonila_next__active swiper_button">
-                    <i className="far fa-arrow-right-long" />
-                  </button>
-                </div>
-                {/* End Next */}
-              </div>
-            </div>
-            {/* End .col for navigation and pagination */}
-          </div>
-          {/* End .row */}
-
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className="testimonial-slider"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <Testimonial />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
       {/* End Our Testimonials */}
 
       {/* Our Partners */}
-      <section className="our-partners p-0">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12" data-aos="fade-up">
-              <div className="main-title text-center">
-                <h6>Trusted by the world’s best</h6>
-              </div>
-            </div>
-            <div className="col-lg-12 text-center">
-              <div
-                className="dots_none nav_none"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <Partner />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
       {/* End Our Partners */}
 
       {/* Explore Blog */}
@@ -289,18 +215,18 @@ const Home_V4 = () => {
           <div className="row">
             <div className="col-lg-6 m-auto" data-aos="fade-up">
               <div className="main-title text-start text-md-center">
-                <h2 className="title">From Our Blog</h2>
+                <h2 className="title">We Also Build </h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Build a Dream home with us
                 </p>
               </div>
             </div>
           </div>
           {/* End .row */}
 
-          <div className="row" data-aos="fade-up" data-aos-delay="300">
+          {/* <div className="row" data-aos="fade-up" data-aos-delay="300">
             <Blog />
-          </div>
+          </div> */}
           {/* End .row */}
         </div>
       </section>

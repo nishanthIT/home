@@ -12,6 +12,14 @@ const MobileMenu = () => {
         <div className="header innerpage-style">
           <div className="menu_and_widgets">
             <div className="mobile_menu_bar d-flex justify-content-between align-items-center">
+
+            <Link className="mobile_logo" to="/">
+                <img
+                 
+                  src="/images/header-logo2.svg"
+                  alt="logo"
+                />
+              </Link>
               <a
                 className="menubar"
                 href="#"
@@ -25,16 +33,10 @@ const MobileMenu = () => {
                   alt="mobile icon"
                 />
               </a>
-              <Link className="mobile_logo" to="/">
-                <img
-                 
-                  src="/images/header-logo2.svg"
-                  alt="logo"
-                />
-              </Link>
-              <Link to="/login">
+              
+              {/* <Link to="/login">
                 <span className="icon fz18 far fa-user-circle" />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
@@ -57,7 +59,7 @@ const MobileMenu = () => {
             >
               <span className="far fa-times"></span>
             </div>
-            <h4 className="title">Welcome to Homez</h4>
+            <h4 className="title">Vino's Home</h4>
           </div>
           {/* End header */}
 

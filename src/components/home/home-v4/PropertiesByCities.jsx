@@ -1,6 +1,7 @@
 
 
 import cities from "@/data/propertyByCities";
+import services from "@/data/services";
 
 import { Link } from "react-router-dom";
 import { Navigation } from "swiper";
@@ -34,7 +35,7 @@ const PropertiesByCities = () => {
           },
         }}
       >
-        {cities.slice(14, 23).map((city) => (
+        {services.slice(0, 12).map((city) => (
           <SwiperSlide key={city.id}>
             <div className="item">
               <div className="feature-style3 text-center">
@@ -49,7 +50,7 @@ const PropertiesByCities = () => {
                 <div className="feature-content pt25">
                   <div className="top-area">
                     <h6 className="title mb-1">
-                      <Link to="/map-v3">{city.name}</Link>
+                      <Link to="">{city.name}</Link>
                     </h6>
                     <p className="fz15 fw400 dark-color mb-0">
                       {city.propertyCount} Properties

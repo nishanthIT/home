@@ -5,7 +5,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "../public/scss/main.scss";
 import { useEffect } from "react";
-import Home_V2 from "./pages/homes/home-v2";
+// import Home_V2 from "./pages/homes/home-v2";
 import Home_V3 from "./pages/homes/home-v3";
 import Home_V4 from "./pages/homes/home-v4";
 import Home_V5 from "./pages/homes/home-v5";
@@ -89,7 +89,7 @@ function App() {
             <Route path="/">
               <Route index element={<Mainpage />} />
 
-              <Route path="home-v2" element={<Home_V2 />} />
+              {/* <Route path="home-v2" element={<Home_V2 />} /> */}
               <Route path="home-v3" element={<Home_V3 />} />
               <Route path="home-v4" element={<Home_V4 />} />
               <Route path="home-v5" element={<Home_V5 />} />

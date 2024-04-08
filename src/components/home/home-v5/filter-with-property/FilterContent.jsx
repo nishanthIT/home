@@ -17,7 +17,7 @@ const FilterContent = () => {
   const tabs = [
     { id: "buy", label: "Buy" },
     { id: "rent", label: "Rent" },
-    { id: "sold", label: "Sold" },
+    // { id: "sold", label: "Sold" },
   ];
 
   const [price, setPrice] = useState({ value: { min: 2000, max: 45000 } });

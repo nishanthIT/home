@@ -1,5 +1,5 @@
-import AdvanceFilterModal from "@/components/common/advance-filter";
-import HeroContent from "./HeroContent";
+// import AdvanceFilterModal from "@/components/common/advance-filter";
+// import HeroContent from "./HeroContent";
 
 import Category from "./Category";
 import VideoBox from "./VideoBox";
@@ -9,20 +9,20 @@ const Hero = () => {
     <>
       <div className="inner-banner-style4">
         <h2 className="hero-title animate-up-1">
-          Easy Way to Find a <br className="d-none d-md-block" /> Perfect
-          Property
+        Experience Our Expert <br className="d-none d-md-block" /> Property Maintenance Services 
+      
         </h2>
         <p className="hero-text fz15 animate-up-2">
-          From as low as $10 per day with limited time offer discounts
+          From as low as £10 per day with limited time offer discounts
         </p>
 
         <div className="home4-floatin-img">
-          <img
+          {/* <img
           
             className="img-1 spin-left d-none d-xl-block contain"
             src="/images/about/element-10.png"
             alt="image"
-          />
+          /> */}
           <img
            
             style={{ objectFit: "contain" }}
@@ -32,7 +32,8 @@ const Hero = () => {
           />
           <VideoBox />
         </div>
-        <HeroContent />
+        {/* <HeroContent /> */}
+        <h4>We Service For</h4>
       </div>
       {/* End Hero content */}
 
@@ -44,12 +45,13 @@ const Hero = () => {
           tabIndex={-1}
           aria-labelledby="advanceSeachModalLabel"
           aria-hidden="true"
-        >
-          <AdvanceFilterModal />
+        > 
+          
+          {/* <AdvanceFilterModal /> */}
         </div>
       </div>
       {/* <!-- Advance Feature Modal End --> */}
-
+        
       <Category />
     </>
   );

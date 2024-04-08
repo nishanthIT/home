@@ -63,7 +63,7 @@ const Header = () => {
 
               <div className="col-auto">
                 <div className="d-flex align-items-center">
-                  <a
+                  {/* <a
                     href="#"
                     className="login-info d-flex align-items-center"
                     data-bs-toggle="modal"
@@ -72,15 +72,15 @@ const Header = () => {
                   >
                     <i className="far fa-user-circle fz16 me-2" />{" "}
                     <span className="d-none d-xl-block">Login / Register</span>
-                  </a>
+                  </a> */}
                   <Link
                     className="ud-btn btn-white add-property bdrs12 mx-2 mx-xl-4 border-0"
-                    to="/dashboard-add-property"
+                    to="/contact"
                   >
-                    Add Property
+                    Contact
                     <i className="fal fa-arrow-right-long" />
                   </Link>
-                  <a
+                  {/* <a
                     className="sidemenu-btn filter-btn-right"
                     href="#"
                     data-bs-toggle="offcanvas"
@@ -100,7 +100,7 @@ const Header = () => {
                       src="/images/icon/nav-icon-dark.svg"
                       alt="humberger menu"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* End .col-auto */}
@@ -112,7 +112,7 @@ const Header = () => {
       {/* End Header */}
 
       {/* Signup Modal */}
-      <div className="signup-modal">
+      {/* <div className="signup-modal">
         <div
           className="modal fade"
           id="loginSignupModal"
@@ -124,18 +124,18 @@ const Header = () => {
             <LoginSignupModal />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End Signup Modal */}
 
       {/* DesktopSidebarMenu */}
-      <div
+      {/* <div
         className="offcanvas offcanvas-end"
         tabIndex="-1"
         id="SidebarPanel"
         aria-labelledby="SidebarPanelLabel"
       >
         <SidebarPanel />
-      </div>
+      </div> */}
       {/* Sidebar Panel End */}
     </>
   );

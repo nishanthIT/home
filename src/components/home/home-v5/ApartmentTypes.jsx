@@ -5,38 +5,38 @@ import React from "react";
 const ApartmentTypes = () => {
   const apartmentData = [
     {
-      city: "Los Angeles",
-      imageSrc: "/images/listings/city-listing-5.png",
+      city: "Build New",
+      imageSrc: "/images/listings/city-listing-2.1.jpg",
       propertyCount: 12,
       className: "col-lg-6",
     },
     {
-      city: "Miami",
-      imageSrc: "/images/listings/city-listing-6.png",
+      city: "Home Extensions",
+      imageSrc: "/images/listings/city-listing-6.1.jpg",
       propertyCount: 12,
       className: "col-6 col-lg-3",
     },
     {
-      city: "New York",
-      imageSrc: "/images/listings/city-listing-7.png",
+      city: "New Builds",
+      imageSrc: "/images/listings/city-listing-7.1.jpg",
       propertyCount: 12,
       className: "col-6 col-lg-3",
     },
     {
-      city: "Chicago",
-      imageSrc: "/images/listings/city-listing-8.png",
+      city: "Basment conversions",
+      imageSrc: "/images/listings/city-listing-8.1.jpg",
       propertyCount: 12,
       className: "col-6 col-lg-3",
     },
     {
-      city: "Chicago",
-      imageSrc: "/images/listings/city-listing-9.png",
+      city: "Loft conversions",
+      imageSrc: "/images/listings/city-listing-7.1.jpg",
       propertyCount: 12,
       className: "col-6 col-lg-3",
     },
     {
-      city: "Chicago",
-      imageSrc: "/images/listings/city-listing-10.png",
+      city: "Loft conversions",
+      imageSrc: "/images/listings/city-listing-1.1.jpg",
       propertyCount: 12,
       className: "col-lg-6",
     },
@@ -61,8 +61,8 @@ const ApartmentTypes = () => {
                 <p className="text">{apartment.propertyCount} Properties</p>
               </div>
               <div className="bottom-area">
-                <Link className="ud-btn2" to="/map-v4">
-                  See All Cities
+                <Link className="ud-btn2" to="/home-v4">
+                  More
                   <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>

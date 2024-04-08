@@ -30,10 +30,10 @@ const Footer = () => {
 
           <div className="col-sm-6 col-lg-3">
             <div className="footer-widget mb-4 mb-lg-5">
-              <div className="mailchimp-widget mb30">
+              {/* <div className="mailchimp-widget mb30">
                 <h6 className="title mb30">Keep Yourself Up to Date</h6>
                 <Subscribe />
-              </div>
+              </div> */}
 
               <AppWidget />
             </div>

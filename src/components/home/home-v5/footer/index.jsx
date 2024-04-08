@@ -12,9 +12,9 @@ const Footer = () => {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-xl-6 mx-auto">
+          {/* <div className="col-xl-6 mx-auto">
             <Subscribe />
-          </div>
+          </div> */}
         </div>
         {/* End .row */}
 

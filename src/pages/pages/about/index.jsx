@@ -79,7 +79,7 @@ const About = () => {
       {/* End Our About Area */}
 
       {/* About Banner */}
-      <section className="our-about pt-0">
+      {/* <section className="our-about pt-0">
         <div className="container">
           <div className="row" data-aos="fade-up" data-aos-delay="300">
             <div className="col-lg-12">
@@ -94,56 +94,19 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* End About Banner */}
 
       {/* Funfact */}
-      <section className="pt-0">
-        <div className="container">
-          <div
-            className="row justify-content-center"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
-            <FunFact />
-          </div>
-        </div>
-      </section>
+     
       {/* End Funfact */}
 
       {/* Exclusive Agents */}
-      <section className="pb90">
-        <div className="container">
-          <div className="row  justify-content-center">
-            <div className="col-auto">
-              <div
-                className="main-title"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <h2 className="title">Our Exclusive Agetns</h2>
-                <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
-                </p>
-              </div>
-            </div>
-            {/* End header */}
-          </div>
-          {/* End .row */}
-
-          <div className="row">
-            <div className="col-lg-12" data-aos="fade-up" data-aos-delay="300">
-              <div className="property-city-slider">
-                <Agents />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       {/* Exclusive Agents */}
 
       {/* Abut intro */}
-      <section className="pt30 pb-0">
+      {/* <section className="pt30 pb-0">
         <div className="cta-banner3 bgc-thm-light mx-auto maxw1600 pt100 pt60-lg pb90 pb60-lg bdrs24 position-relative overflow-hidden mx20-lg">
           <div className="container">
             <div className="row">
@@ -169,11 +132,11 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Abut intro */}
 
       {/* Our Partners */}
-      <section className="our-partners">
+      {/* <section className="our-partners">
         <div className="container">
           <div className="row">
             <div className="col-lg-12" data-aos="fade-up">
@@ -192,17 +155,17 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* End Our Partners */}
 
       {/* Our CTA */}
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* Our CTA */}
 
       {/* Start Our Footer */}
-      <section className="footer-style1 pt60 pb-0">
+      {/* <section className="footer-style1 pt60 pb-0">
         <Footer />
-      </section>
+      </section> */}
       {/* End Our Footer */}
     </>
   );

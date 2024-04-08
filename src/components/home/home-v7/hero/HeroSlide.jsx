@@ -63,7 +63,7 @@ const HeroSlide = () => {
                   {listing.price}
                 </div>
                 <h2 className="list-title animate-up-2">
-                  <Link to="/map-v4">{listing.title}</Link>
+                  <Link to="">{listing.title}</Link>
                 </h2>
                 <div className="list-meta d-flex align-items-center animate-up-3">
                   <a className="mr10" href="#">
@@ -75,7 +75,7 @@ const HeroSlide = () => {
                   <a href="#">{listing.sqFt}</a>
                 </div>
                 <Link
-                  to="/map-v4"
+                  to=""
                   className="ud-btn btn-transparent2 animate-up-2"
                 >
                   View Details

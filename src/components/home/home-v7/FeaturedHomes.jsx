@@ -10,38 +10,38 @@ const FeaturedHomes = () => {
     {
       id: 1,
       imageUrl: "/images/listings/as-6.jpg",
-      title: "Apartments for sale",
-      description: "22 Properties",
+      title: "Apartments",
+      description: "22+ Properties",
     },
     {
       id: 2,
       imageUrl: "/images/listings/as-7.jpg",
-      title: "Single family homes for sale",
-      description: "22 Properties",
+      title: "Single family homes ",
+      description: "40+ Properties",
     },
     {
       id: 3,
       imageUrl: "/images/listings/as-8.jpg",
-      title: "Office for sale",
-      description: "22 Properties",
+      title: "Office ",
+      description: "10+ Properties",
     },
     {
       id: 4,
       imageUrl: "/images/listings/as-9.jpg",
-      title: "Villas for sale",
-      description: "22 Properties",
+      title: "Villas ",
+      description: "27+ Properties",
     },
     {
       id: 5,
       imageUrl: "/images/listings/as-6.jpg",
-      title: "Apartments for sale",
-      description: "22 Properties",
+      title: "Apartments ",
+      description: "18+ Properties",
     },
     {
       id: 6,
       imageUrl: "/images/listings/as-7.jpg",
-      title: "Single family homes for sale",
-      description: "22 Properties",
+      title: "Single family homes",
+      description: "22+ Properties",
     },
   ];
 
@@ -77,7 +77,7 @@ const FeaturedHomes = () => {
         {featuredHomesData.map((home) => (
           <SwiperSlide key={home.id}>
             <div className="item">
-              <Link to="/map-v4">
+              <Link to="">
                 <div className="apartment-style2 text-center mb30">
                   <div className="apartment-img">
                     <img

@@ -1,5 +1,5 @@
 
-import Home_V1 from "./homes/home-v1/page";
+import Home_V5 from "./homes/home-v5/index.jsx";
 import Wrapper from "./layout-wrapper/wrapper";
 
 import MetaData from "@/components/common/MetaData";
@@ -12,7 +12,7 @@ export default function Mainpage() {
   return (
     <Wrapper>
       <MetaData meta={metaInformation} />
-      <Home_V1 />
+      <Home_V5 />
     </Wrapper>
   );
 }

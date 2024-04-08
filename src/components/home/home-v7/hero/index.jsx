@@ -1,5 +1,5 @@
 import AdvanceFilterModal from "@/components/common/advance-filter";
-import HeroContent from "./HeroContent";
+
 import Funfact from "../Funfact";
 
 const Hero = () => {
@@ -7,10 +7,10 @@ const Hero = () => {
     <>
       <div className="inner-banner-style7 mb30-lg">
         <h2 className="hero-title mb30 animate-up-1">
-          Discover a place you&apos;ll <br className="d-none d-lg-block" /> love
+          Build a place you&apos;ll <br className="d-none d-lg-block" /> love
           to live
         </h2>
-        <HeroContent />
+      
         <div className="d-flex animate-up-3">
           <Funfact />
         </div>
@@ -26,7 +26,7 @@ const Hero = () => {
           aria-labelledby="advanceSeachModalLabel"
           aria-hidden="true"
         >
-          <AdvanceFilterModal />
+          {/* <AdvanceFilterModal /> */}
         </div>
       </div>
       {/* <!-- Advance Feature Modal End --> */}

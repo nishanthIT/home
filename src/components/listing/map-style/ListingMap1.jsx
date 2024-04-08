@@ -1,12 +1,12 @@
 
 import {
   GoogleMap,
-  Marker,
+  Marker,MarkerF,
   MarkerClusterer,
   useLoadScript,
   InfoWindow,
 } from "@react-google-maps/api";
-import { useMemo, useState } from "react";
+import { useMemo, useState,useEffect } from "react";
 
 import listings from "@/data/listings";
 
@@ -193,12 +193,24 @@ const containerStyle = {
 };
 export default function ListingMap1() {
   const [getLocation, setLocation] = useState(null);
-
+  const [markers, setMarkers] = useState([]);
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: "AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM",
-  });
+    // googleMapsApiKey: "AIzaSyCEoko4m32c65sN_8W2hzGJZ-MFcHzafaM",
+  }); 
+
+  
+
+
+  useEffect(() => {
+    // Update markers when listings change
+    setMarkers(listings.slice(0, 6));
+  }, []);
+
+ 
   const center = useMemo(
-    () => ({ lat: 27.411201277163975, lng: -96.12394824867293 }),
+    // () => ({ lat: 27.411201277163975, lng: -96.12394824867293 }),
+    () => ({ lat: 52.430870582431425, lng: -1.4210939030426184  }),
     []
   );
 
@@ -220,13 +232,14 @@ export default function ListingMap1() {
         <GoogleMap
           mapContainerStyle={containerStyle}
           center={center}
-          zoom={4}
+          zoom={7.6}
           options={option}
         >
+          {console.log(markers)}
           <MarkerClusterer>
-            {(clusterer) =>
-              listings.slice(0, 6).map((marker) => (
-                <Marker
+            {(clusterer) => 
+              markers.map((marker) => (
+                <MarkerF
                   key={marker.id}
                   position={{
                     lat: marker.lat,
@@ -234,10 +247,19 @@ export default function ListingMap1() {
                   }}
                   clusterer={clusterer}
                   onClick={() => locationHandler(marker)}
-                ></Marker>
+                ></MarkerF>
               ))
             }
           </MarkerClusterer>
+
+            
+
+
+             // lat:40.7279707552121,
+              // lng:-74.07152705896405,
+            
+         
+       
           {getLocation !== null && (
             <InfoWindow
               position={{

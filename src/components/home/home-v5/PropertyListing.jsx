@@ -22,7 +22,7 @@ export default function PropertyListing() {
       
     }, [currentType])
   return (
-    <section className="bgc-thm pb90 pb40-md">
+    <section className="bgc-thm pb90 pb40-md ">
     <div className="container">
       <div className="row " data-aos="fade-up">
         <div className="col-lg-9">

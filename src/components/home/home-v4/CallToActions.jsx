@@ -20,13 +20,13 @@ const CallToActions = () => {
         <div className="row">
           <div className="col-lg-7 col-xl-6">
             <div className="cta-style3">
-              <h2 className="cta-title">Get Your Dream House</h2>
+              <h2 className="cta-title">Build Your Dream House</h2>
               <p className="cta-text mb25">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{" "}
                 <br className="d-none d-md-block" /> eiusmod tempor incididunt.
               </p>
-              <Link to="/register" className="ud-btn btn-dark">
-                Register Now <i className="fal fa-arrow-right-long" />
+              <Link to="/home-v7" className="ud-btn btn-dark">
+                Build <i className="fal fa-arrow-right-long" />
               </Link>
             </div>
           </div>

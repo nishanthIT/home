@@ -1,5 +1,6 @@
 import MobileMenu from "@/components/common/mobile-menu";
-import Header from "@/components/home/home-v7/Header";
+// import Header from "@/components/home/home-v7/Header";
+import DefaultHeader from "@/components/common/DefaultHeader";
 import Hero from "@/components/home/home-v7/hero";
 import Footer from "@/components/home/home-v7/footer";
 
@@ -18,6 +19,7 @@ import { Link } from "react-router-dom";
 import PropertyListing from "@/components/home/home-v7/PropertyListing";
 
 import MetaData from "@/components/common/MetaData";
+import ApartmentTypes from "@/components/home/home-v5/ApartmentTypes";
 
 const metaInformation = {
   title: "Home v7 || Homez - Real Estate ReactJS Template",
@@ -28,7 +30,8 @@ const Home_V7 = () => {
     <>
     <MetaData meta={metaInformation} />
       {/* Main Header Nav */}
-      <Header />
+      {/* <Header /> */}
+      <DefaultHeader/>
       {/* End Main Header Nav */}
 
       {/* Mobile Nav  */}
@@ -59,24 +62,7 @@ const Home_V7 = () => {
       {/* End Home Banner Style V3 */}
 
       {/* Our Partners */}
-      <section className="our-partners bgc-white">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="main-title text-center">
-                <h6>Trusted by the world’s best</h6>
-              </div>
-            </div>
-            {/* End .col-12 */}
-
-            <div className="col-lg-12 text-center">
-              <Partner />
-            </div>
-            {/* End .col-12 */}
-          </div>
-          {/* End .row */}
-        </div>
-      </section>
+     
       {/* End Our Partners */}
 
       {/* Featured Homes */}
@@ -89,9 +75,9 @@ const Home_V7 = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <h2 className="title">Featured Homes</h2>
+                <h2 className="title">Building Better Futures</h2>
                 <p className="paragraph">
-                  Get some Inspirations from 800+ Properties
+                  Get some Inspirations from 800+ Properties 
                 </p>
               </div>
             </div>
@@ -136,18 +122,18 @@ const Home_V7 = () => {
       {/* End Featured Homes */}
 
       {/* Popular Property */}
-      <PropertyListing/>
+      {/* <PropertyListing/> */}
       {/* Popular Property */}
 
       {/* Explore Apartment Explore cities */}
-      <section className="pb90 pb30-md">
+      <section  className="pb90 pb30-md" >
         <div className="container">
           <div className="row" data-aos="fade-up" data-aos-delay="0">
             <div className="col-lg-6 mx-auto">
               <div className="main-title2 text-center">
-                <h2 className="title">Explore Cities</h2>
+                <h2 className="title">Build Your Dream Home</h2>
                 <p className="paragraph">
-                  Get some Inspirations from 1800+ skills
+                  what we expert in:
                 </p>
               </div>
             </div>
@@ -155,7 +141,7 @@ const Home_V7 = () => {
           {/* End .row */}
 
           <div className="row" data-aos="fade-up" data-aos-delay="300">
-            <ExploreCities />
+            <ApartmentTypes />
           </div>
           {/* End .row */}
         </div>
@@ -192,9 +178,11 @@ const Home_V7 = () => {
                   <br className="d-none d-lg-block" /> do eiusmod tempor
                   incididunt.
                 </p>
+                <Link to="/contact">
                 <a to="/contact" className="ud-btn btn-dark bdrs0">
                   Get Started <i className="fal fa-arrow-right-long" />
                 </a>
+                </Link>
               </div>
             </div>
             <div
@@ -211,135 +199,23 @@ const Home_V7 = () => {
       {/* End Our Funfact */}
 
       {/* Popular Property */}
-      <section className="bgc-dark pb130">
-        <div className="container">
-          <div className="row" data-aos="fade-up" data-aos-delay="100">
-            <div className="col-xl-6 mx-auto">
-              <div className="main-title2 text-center">
-                <h2 className="title text-white">
-                  Discover Popular Properties
-                </h2>
-                <p className="paragraph text-white">
-                  Aliquam lacinia diam quis lacus euismod
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className="row" data-aos="fade-up" data-aos-delay="300">
-            <div className="col-lg-12">
-              <div className="feature-listing-slider">
-                <PopularListings />
-              </div>
-            </div>
-          </div>
-          {/* End .row */}
-        </div>
-      </section>
+    
       {/* Popular Property */}
 
       {/* Customers Testimonials */}
-      <section>
-        <div className="container">
-          <div className="row">
-            <div
-              className="col-lg-6 m-auto"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div className="main-title text-center">
-                <h2 className="title">Testimonials From Our Customers</h2>
-                <p className="paragraph">
-                  Lorem ipsum dolor sit amet elit, sed do eiusmod tempor
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="home7-testimonial-slider">
-                <Testimonial />
-              </div>
-            </div>
-          </div>
-          {/* End .row */}
-        </div>
-        {/* End .container */}
-      </section>
+     
       {/* Customers Testimonials */}
 
       {/* Explore Apartment */}
-      <section className="pb90 pb30-md bgc-thm-light">
-        <div className="container">
-          <div className="row">
-            <div
-              className="col-lg-6 m-auto wow fadeInUp"
-              data-wow-delay="300ms"
-            >
-              <div className="main-title text-center">
-                <h2 className="title">See How Realton Can Help</h2>
-                <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className="row">
-            <Explore />
-          </div>
-        </div>
-      </section>
+      
       {/* End Explore Apartment */}
 
       {/* Real Estate Inquiry Form */}
-      <section>
-        <div className="container">
-          <div className="row">
-            <div
-              className="col-lg-6 col-xl-5"
-              data-aos="fade-left"
-              data-aos-delay="0"
-            >
-              <div className="main-title mb40">
-                <h2 className="title">Real Estate Inquiry Form</h2>
-                <p className="paragraph fz15">
-                  As the complexity of buildings to increase
-                </p>
-              </div>
-              <div className="inquiry-form mb30-md">
-                <InqueryForm />
-              </div>
-            </div>
-            {/* End col-6 */}
-
-            <div
-              className="col-lg-6 col-xl-6 offset-xl-1"
-              data-aos="fade-right"
-              data-aos-delay="300"
-            >
-              <div className="inquiry-form">
-                <div className="inquiry-img">
-                  <img
-                   
-                    className="w-100 h-100 cover"
-                    src="/images/about/about-4.png"
-                    alt="about"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       {/* Real Estate Inquiry Form */}
 
       {/* Our CTA */}
-      <Cta />
+
       {/* Our End CTA */}
 
       {/* Start Our Footer */}

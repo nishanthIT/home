@@ -7,23 +7,26 @@ const Explore = () => {
     {
       id: 1,
       icon: "/images/icon/property-buy.svg",
-      title: "Buy a property",
+      title: "Rent a property",
       text: "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
       linkText: "Find a home",
+      path:"/grid-default"
     },
     {
       id: 2,
       icon: "/images/icon/property-sell.svg",
-      title: "Sell a property",
+      title: "Service a property",
       text: "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
-      linkText: "Place an ad",
+      linkText: "Get Service",
+      path:"/home-v4"
     },
     {
       id: 3,
       icon: "/images/icon/property-rent.svg",
-      title: "Rent a property",
+      title: "Build a property",
       text: "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
-      linkText: "Find a rental",
+      linkText: "Build a home",
+      path:"/home-v7"
     },
   ];
 
@@ -43,7 +46,7 @@ const Explore = () => {
             <div className="iconbox-content">
               <h4 className="title">{item.title}</h4>
               <p className="text">{item.text}</p>
-              <Link to="/grid-default" className="ud-btn btn-white2">
+              <Link to={item.path} className="ud-btn btn-white2">
                 {item.linkText}
                 <i className="fal fa-arrow-right-long" />
               </Link>

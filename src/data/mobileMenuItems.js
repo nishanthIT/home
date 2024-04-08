@@ -2,6 +2,7 @@
 const mobileMenus = [
   {
     label: "Home",
+    path:"/",
     subMenu: [
       { path: "/home-v1", label: "Home v1" },
       { path: "/home-v2", label: "Home v2" },
@@ -16,7 +17,8 @@ const mobileMenus = [
     ],
   },
   {
-    label: "Listings",
+    label: "Rent",
+    path:"/grid-default",
     subMenu: [
       {
         label: "Grid View",
@@ -90,7 +92,8 @@ const mobileMenus = [
     ],
   },
   {
-    label: "Dashboard",
+    label: "Services",
+    path:"/home-v4",
     subMenu: [
       { label: "Dashboard Home", path: "/dashboard-home" },
       { label: "Message", path: "/dashboard-message" },
@@ -104,7 +107,8 @@ const mobileMenus = [
     ],
   },
   {
-    label: "Blog",
+    label: "Construct",
+    path:"/home-v7",
     subMenu: [
       { path: "/blog-list-v1", label: "Blog List V1" },
       { path: "/blog-list-v2", label: "Blog List V2" },
@@ -114,7 +118,8 @@ const mobileMenus = [
   },
 
   {
-    label: "Pages",
+    label: "About-us",
+    path:"/about",
     subMenu: [
       { path: "/about", label: "About" },
       { path: "/contact", label: "Contact" },
