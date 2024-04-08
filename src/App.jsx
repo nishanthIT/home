@@ -90,17 +90,17 @@ function App() {
               <Route index element={<Mainpage />} />
 
               {/* <Route path="home-v2" element={<Home_V2 />} /> */}
-              <Route path="home-v3" element={<Home_V3 />} />
+              {/* <Route path="home-v3" element={<Home_V3 />} /> */}
               <Route path="home-v4" element={<Home_V4 />} />
               <Route path="home-v5" element={<Home_V5 />} />
-              <Route path="home-v6" element={<Home_V6 />} />
+              {/* <Route path="home-v6" element={<Home_V6 />} /> */}
               <Route path="home-v7" element={<Home_V7 />} />
-              <Route path="home-v8" element={<Home_V8 />} />
-              <Route path="home-v9" element={<Home_V9 />} />
-              <Route path="home-v10" element={<Home_V10 />} />
+              {/* <Route path="home-v8" element={<Home_V8 />} /> */}
+              {/* <Route path="home-v9" element={<Home_V9 />} />
+              <Route path="home-v10" element={<Home_V10 />} /> */}
 
               <Route path="grid-default" element={<GridDefault />} />
-              <Route path="grid-full-3-col" element={<GridFull3Col />} />
+              {/* <Route path="grid-full-3-col" element={<GridFull3Col />} />
               <Route path="grid-full-4-col" element={<GridFull4Col />} />
               <Route path="grid-full-2-col" element={<GridFull2Col />} />
               <Route path="grid-full-1-col-v1" element={<GridFull1ColV1 />} />
@@ -108,15 +108,15 @@ function App() {
               <Route path="banner-search-v1" element={<BannerSearchV1 />} />
               <Route path="banner-search-v2" element={<BannerSearchV2 />} />
               <Route path="list-all-style" element={<ListV1All />} />
-              <Route path="list-v1" element={<ListV1 />} />
+              <Route path="list-v1" element={<ListV1 />} /> */}
 
-              <Route path="header-map-style" element={<HeaderMapStyle />} />
+              {/* <Route path="header-map-style" element={<HeaderMapStyle />} />
               <Route path="map-v1" element={<MapV1 />} />
               <Route path="map-v2" element={<MapV2 />} />
-              <Route path="map-v3" element={<MapV3 />} />
+              <Route path="map-v3" element={<MapV3 />} /> */}
               <Route path="map-v4" element={<MapV4 />} />
 
-              <Route path="dashboard-home" element={<DashboardHome />} />
+              {/* <Route path="dashboard-home" element={<DashboardHome />} />
               <Route path="dashboard-message" element={<DashboardMessage />} />
               <Route
                 path="dashboard-add-property"
@@ -152,20 +152,20 @@ function App() {
               <Route path="blog-list-v1" element={<BlogV1 />} />
               <Route path="blog-list-v2" element={<BlogV2 />} />
               <Route path="blog-list-v3" element={<BlogV3 />} />
-              <Route path="blogs/:id" element={<BlogSingle />} />
+              <Route path="blogs/:id" element={<BlogSingle />} /> */}
 
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />
-              <Route path="compare" element={<Compare />} />
+              {/* <Route path="compare" element={<Compare />} />
               <Route path="pricing" element={<PricingPlan />} />
               <Route path="faq" element={<Faq />} />
               <Route path="login" element={<Login />} />
               <Route path="register" element={<Register />} />
               <Route path="not-found" element={<NotFound />} />
-              <Route path="invoice" element={<Invoice />} />
+              <Route path="invoice" element={<Invoice />} /> */}
 
               <Route path="single-v1/:id" element={<SingleV1 />} />
-              <Route path="single-v2/:id" element={<SingleV2 />} />
+              {/* <Route path="single-v2/:id" element={<SingleV2 />} />
               <Route path="single-v3/:id" element={<SingleV3 />} />
               <Route path="single-v4/:id" element={<SingleV4 />} />
               <Route path="single-v5/:id" element={<SingleV5 />} />
@@ -173,7 +173,7 @@ function App() {
               <Route path="single-v7/:id" element={<SingleV7 />} />
               <Route path="single-v8/:id" element={<SingleV8 />} />
               <Route path="single-v9/:id" element={<SingleV9 />} />
-              <Route path="single-v10/:id" element={<SingleV10 />} />
+              <Route path="single-v10/:id" element={<SingleV10 />} /> */}
 
               <Route path="*" element={<NotFound />} />
             </Route>

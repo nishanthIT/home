@@ -1,18 +1,19 @@
 import MobileMenu from "@/components/common/mobile-menu";
 import CallToActions from "@/components/home/home-v4/CallToActions";
 import DefaultHeader from "@/components/common/DefaultHeader";
-import Partner from "@/components/common/Partner";
+// import Partner from "@/components/common/Partner";
 import PropertiesByCities from "@/components/home/home-v4/PropertiesByCities";
 import Hero from "@/components/home/home-v4/hero";
-import Blog from "@/components/common/Blog";
+// import Blog from "@/components/common/Blog";
 import Features from "@/components/home/home-v4/Features";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Funfact from "@/components/home/home-v4/Funfact";
-import ApartmentTypes from "@/components/home/home-v4/ApartmentTypes";
-import About from "@/components/home/home-v4/about";
-import Testimonial from "@/components/home/home-v4/Testimonial";
-import FilterProperties from "@/components/home/home-v4/FilterProperties";
-import Footer from "@/components/home/home-v4/footer";
+// import ApartmentTypes from "@/components/home/home-v4/ApartmentTypes";
+// import About from "@/components/home/home-v4/about";
+// import Testimonial from "@/components/home/home-v4/Testimonial";
+// import FilterProperties from "@/components/home/home-v4/FilterProperties";
+
+import Footer from "@/components/home/home-v5/footer";
 
 import MetaData from "@/components/common/MetaData";
 

@@ -14,12 +14,12 @@ const Footer = () => {
             <p className="copyright-text text-gray ff-heading">
               © Homez {getCurrentYear()}{" "}
               <a
-                href="https://themeforest.net/user/ib-themes"
+                href="https://nishanth.selfmade.one/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white"
               >
-                ib-themes
+                Ndevelopers
               </a>{" "}
               - All rights reserved
             </p>

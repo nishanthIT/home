@@ -9,12 +9,12 @@ const ContactMeta = () => {
     },
     {
       text: "Total Free Customer Care",
-      info: "+(0) 123 050 945 02",
+      info: "+(0) 7534 333494",
       link: "tel:+012305094502",
     },
     {
       text: "Need Live Support?",
-      info: "hi@homez.com",
+      info: "vinopaymi@gmail.com",
       link: "mailto:hi@homez.com",
     },
   ];

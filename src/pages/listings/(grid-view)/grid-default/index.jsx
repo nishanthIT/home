@@ -1,5 +1,6 @@
 import DefaultHeader from "@/components/common/DefaultHeader";
-import Footer from "@/components/common/default-footer";
+// import Footer from "@/components/common/default-footer";
+import Footer from "@/components/home/home-v5/footer";
 import MobileMenu from "@/components/common/mobile-menu";
 
 import React from "react";

@@ -5,14 +5,14 @@ import FeaturedListings from "@/components/home/home-v5/FeatuerdListings";
 import Header from "@/components/home/home-v5/Header";
 import Partner from "@/components/common/Partner";
 import PropertiesByCities from "@/components/home/home-v5/PropertiesByCities";
-import Testimonial from "@/components/home/home-v5/Testimonial";
+
 import FilterWithProperties from "@/components/home/home-v5/filter-with-property";
-import Blog from "@/components/common/Blog";
+
 import Hero from "@/components/home/home-v5/Hero";
 import ApartmentTypes from "@/components/home/home-v5/ApartmentTypes";
 import Cta from "@/components/home/home-v5/Cta";
 import { Link } from "react-router-dom";
-import PropertyListing from "@/components/home/home-v5/PropertyListing";
+
 
 import MetaData from "@/components/common/MetaData";
 

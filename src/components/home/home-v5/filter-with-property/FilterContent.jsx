@@ -97,7 +97,7 @@ const FilterContent = () => {
                         data-bs-auto-close="outside"
                         style={{ fontSize: "13px" }}
                       >
-                        ${price.value.min} - ${price.value.max}{" "}
+                        £{price.value.min} - £{price.value.max}{" "}
                         <i className="fas fa-caret-down" />
                       </div>
                       <div className="dropdown-menu">
@@ -113,11 +113,11 @@ const FilterContent = () => {
                             />
                             <div className="d-flex align-items-center">
                               <span id="slider-range-value1">
-                                ${price.value.min}
+                                £{price.value.min}
                               </span>
                               <i className="fa-sharp fa-solid fa-minus mx-2 dark-color icon" />
                               <span id="slider-range-value2">
-                                ${price.value.max}
+                                £{price.value.max}
                               </span>
                             </div>
                           </div>
@@ -141,7 +141,7 @@ const FilterContent = () => {
                     <button
                       className="advance-search-icon ud-btn btn-thm ms-4"
                       type="button"
-                      onClick={() => navigate("/grid-full-3-col")}
+                      onClick={() => navigate("/grid-default")}
                     >
                       <span className="flaticon-search" />
                     </button>

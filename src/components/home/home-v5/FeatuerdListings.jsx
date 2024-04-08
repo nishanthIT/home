@@ -71,7 +71,7 @@ const FeaturedListings = () => {
                 </div>
                 <div className="list-content">
                   <h6 className="list-title">
-                    <Link to={`/single-v4/${listing.id}`}>{listing.title}</Link>
+                    <Link to={`/single-v1/${listing.id}`}>{listing.title}</Link>
                   </h6>
 
                   <div className="d-flex justify-content-between align-items-center">

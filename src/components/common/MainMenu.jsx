@@ -58,14 +58,13 @@ const MainMenu = () => {
   return (
     <ul className="ace-responsive-menu">
       <li className="visible_list dropitem">
-        <a className="list-item" >
+        
           <Link to="/">
           <span className={topMenu == "home" ? "title menuActive" : "title"}>
             Home
           </span>
           </Link>
-        
-        </a>
+       
         {/* Level Two*/}
         {/* <ul className="sub-menu">
           {homeItems.map((item, index) => (
@@ -80,14 +79,14 @@ const MainMenu = () => {
       {/* End homeItems */}
 
       <li className="megamenu_style dropitem">
-        <a className="list-item" href="#">
+        {/* <a className="list-item" href="#"> */}
           <Link to="/grid-default">
           <span className={topMenu == "listing" ? "title menuActive" : "title"}>
             Rent
           </span>
           </Link>
      
-        </a>
+        {/* </a> */}
         {/* <ul className="row dropdown-megamenu sub-menu">
           {listingItems.map((item, index) => (
             <li className="col mega_menu_list" key={index}>
@@ -111,7 +110,7 @@ const MainMenu = () => {
       {/* End listings */}
 
       <li className="visible_list dropitem">
-        <a className="list-item" >
+        {/* <a className="list-item" > */}
           <Link to="/home-v4">
           <span
             className={topMenu == "property" ? "title menuActive" : "title"}
@@ -120,7 +119,7 @@ const MainMenu = () => {
           </span>
           </Link>
          
-        </a>
+        {/* </a> */}
         {/* <ul className="sub-menu">
           {propertyItems.map((item, index) => (
             <li key={index} className="dropitem">
@@ -153,14 +152,14 @@ const MainMenu = () => {
       {/* End property Items */}
 
       <li className="visible_list dropitem">
-        <a className="list-item">
+        {/* <a className="list-item"> */}
           <Link to="/home-v7">
           <span className={topMenu == "blog" ? "title menuActive" : "title"}>
           Construct 
           </span>
           </Link>
          
-        </a>
+        {/* </a> */}
         {/* <ul className="sub-menu">
           {blogItems.map((item, index) => (
             <li key={index}>
@@ -174,14 +173,14 @@ const MainMenu = () => {
       {/* End blog Items */}
 
       <li className="visible_list dropitem">
-        <a className="list-item" >
+        {/* <a className="list-item" > */}
           <Link to="/about">
           <span className={topMenu == "pages" ? "title menuActive" : "title"}>
             About Us
           </span>
           </Link>
          
-        </a>
+        {/* </a> */}
         {/* <ul className="sub-menu">
           {pageItems.map((item, index) => (
             <li key={index}>

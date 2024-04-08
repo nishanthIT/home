@@ -2,21 +2,22 @@ import MobileMenu from "@/components/common/mobile-menu";
 // import Header from "@/components/home/home-v7/Header";
 import DefaultHeader from "@/components/common/DefaultHeader";
 import Hero from "@/components/home/home-v7/hero";
-import Footer from "@/components/home/home-v7/footer";
+// import Footer from "@/components/home/home-v7/footer";
+import Footer from "@/components/home/home-v5/footer";
 
-import Partner from "@/components/common/Partner";
-import FeaturedListings from "@/components/home/home-v7/FeatuerdListings";
-import Cta from "@/components/home/home-v7/Cta";
-import InqueryForm from "@/components/home/home-v7/InqueryForm";
+// import Partner from "@/components/common/Partner";
+// import FeaturedListings from "@/components/home/home-v7/FeatuerdListings";
+// import Cta from "@/components/home/home-v7/Cta";
+// import InqueryForm from "@/components/home/home-v7/InqueryForm";
 import HeroSlide from "@/components/home/home-v7/hero/HeroSlide";
 import FeaturedHomes from "@/components/home/home-v7/FeaturedHomes";
-import Explore from "@/components/common/Explore";
-import ExploreCities from "@/components/home/home-v7/ExploreCities";
+// import Explore from "@/components/common/Explore";
+// import ExploreCities from "@/components/home/home-v7/ExploreCities";
 import Funfact2 from "@/components/home/home-v7/Funfact2";
-import PopularListings from "@/components/home/home-v7/PopularListings";
-import Testimonial from "@/components/home/home-v7/Testimonial";
+// import PopularListings from "@/components/home/home-v7/PopularListings";
+// import Testimonial from "@/components/home/home-v7/Testimonial";
 import { Link } from "react-router-dom";
-import PropertyListing from "@/components/home/home-v7/PropertyListing";
+// import PropertyListing from "@/components/home/home-v7/PropertyListing";
 
 import MetaData from "@/components/common/MetaData";
 import ApartmentTypes from "@/components/home/home-v5/ApartmentTypes";
@@ -203,7 +204,7 @@ const Home_V7 = () => {
       {/* Popular Property */}
 
       {/* Customers Testimonials */}
-     
+        
       {/* Customers Testimonials */}
 
       {/* Explore Apartment */}
